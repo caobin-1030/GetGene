@@ -14,7 +14,7 @@
             active-text-color="#00D4FF">
             <el-menu-item index="gene-0">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{ $t('lang.bie')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{ $t('lang.bie')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Alias</p>
               </div>
             </el-menu-item>
@@ -28,55 +28,55 @@
             </el-menu-item>
             <el-menu-item index="gene-3">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.biao')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.biao')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Gene expression</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-4">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.chayi')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.chayi')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Differential expression</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-5">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.xiangguang')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.xiangguang')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Correlation</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-8">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.shiyan')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.shiyan')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Exprimental ceRNA</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-9">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.yuce')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.yuce')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">predict ceRNA</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-10">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.danbai')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.danbai')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Protein-protein</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-11">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.mianyi')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.mianyi')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Gene immune</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-12">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.danhe')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.danhe')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">SNV</p>
               </div>
             </el-menu-item>
             <el-menu-item index="gene-13">
               <div slot="title">
-                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px')}">{{$t('lang.shengcun')}}</p>
+                <p style="font-size:16px;margin-top:10px" :style="{'line-height':($i18n.locale=='zh'?'20px':'56px'),'margin-top':($i18n.locale=='zh'?'10px':'0px')}">{{$t('lang.shengcun')}}</p>
                 <p v-if="$i18n.locale=='zh'" style="font-size:12px;color:#74839A">Survival</p>
               </div>
             </el-menu-item>
@@ -172,7 +172,7 @@
               <el-collapse-item title="KEGG" id="gene-1" name="2">
                 <div class="kegg">
                   <el-tabs v-model="activeName" :tab-position="tabPosition" @tab-click="handleClick" >
-                    <el-tab-pane label="通路注释" name="kegg" >
+                    <el-tab-pane :label="$t('lang.pa')" :title="$t('lang.pa')" name="kegg" >
                       <el-table v-if="gene2KeggMapList!=undefined" height="200" :data="gene2KeggMapList.filter(data => !search1 || data.info.toLowerCase().includes(search1.toLowerCase()))"  border style="width: 100%">
                         <el-table-column  label="PathwayId" width="100">
                           <template slot-scope="scope">
@@ -197,7 +197,7 @@
                         </div>
                       </div>
                     </el-tab-pane>
-                    <el-tab-pane :disabled="gene2KeggMapList==undefined" label="调控关系" class="tiaokong" name="kegg1" style="height:500px;">
+                    <el-tab-pane :disabled="gene2KeggMapList==undefined" :label="$t('lang.reg')" class="tiaokong" name="kegg1" style="height:500px;">
                       <div class="tcga" v-loading="loading5"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -228,7 +228,7 @@
                         </div>
                       </div>
                     </el-tab-pane>
-                    <el-tab-pane :disabled="gene2KeggMapList==undefined" label="表达调控关系" name="kegg3">
+                    <el-tab-pane :disabled="gene2KeggMapList==undefined" :label="$t('lang.er')" name="kegg3">
                       <div class="tcga" v-loading="loading11"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -242,7 +242,7 @@
                           </div>
                         </div>
                         <div class="generight">
-                          <p class="xishu">选择数据集：</p>
+                          <p class="xishu">{{$t('lang.dat')}}</p>
                           <el-select v-model="pathway2" filterable placeholder="请选择">
                             <el-option
                               v-for="item in pathwayvalue"
@@ -251,7 +251,7 @@
                               :value="item.value">
                             </el-option>
                           </el-select>
-                          <p class="xishu">相关系数方法：</p>
+                          <p class="xishu">{{$t('lang.cm')}}：</p>
                           <el-select v-model="func" placeholder="请选择">
                             <el-option
                               v-for="item in funcvalue"
@@ -260,15 +260,15 @@
                               :value="item.value">
                             </el-option>
                           </el-select>
-                          <p class="xishu"><span>R值：</span><input type="number" class="innp" step="0.1" min="0" v-model="input5"></p>
-                          <p class="xishu"><span>P值：</span><input type="number" class="innp" step="0.01" min="0" v-model="input6"></p>
+                          <p class="xishu"><span>{{$t('lang.rvc')}}：</span><input type="number" class="innp" step="0.1" min="0" v-model="input5"></p>
+                          <p class="xishu"><span>{{$t('lang.pvc')}}：</span><input type="number" class="innp" step="0.01" min="0" v-model="input6"></p>
                           <p class="xishu">
-                            <el-button  type="primary" @click="Undate5()" size="mini">更新</el-button>
+                            <el-button  type="primary" @click="Undate5()" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
                     </el-tab-pane>
-                    <el-tab-pane :disabled="gene2KeggMapList==undefined" label="表达-通路相关性" name="kegg2">
+                    <el-tab-pane :disabled="gene2KeggMapList==undefined" :label="$t('lang.epc')"  name="kegg2">
                       <div class="tcga" v-loading="loading3"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -282,7 +282,7 @@
                           </div>
                         </div>
                         <div class="generight">
-                          <p class="xishu">选择数据集：</p>
+                          <p class="xishu">{{$t('lang.dat')}}</p>
                           <el-select v-model="pathway" filterable multiple placeholder="请选择">
                             <el-option
                               v-for="item in pathwayvalue"
@@ -300,10 +300,10 @@
                               :value="item.value">
                             </el-option>
                           </el-select>
-                          <p class="xishu"><span>R值：</span><input type="number" class="innp" step="0.1" min="0" v-model="input5"></p>
-                          <p class="xishu"><span>P值：</span><input type="number" class="innp" step="0.01" min="0" v-model="input6"></p>
+                          <p class="xishu"><span>{{$t('lang.rvc')}}：</span><input type="number" class="innp" step="0.1" min="0" v-model="input5"></p>
+                          <p class="xishu"><span>{{$t('lang.pvc')}}：</span><input type="number" class="innp" step="0.01" min="0" v-model="input6"></p>
                           <p class="xishu">
-                            <el-button  type="primary" @click="Undate2()" size="mini">更新</el-button>
+                            <el-button  type="primary" @click="Undate2()" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -314,7 +314,7 @@
               <el-collapse-item title="GO" id='gene-2' name="3">
                 <div class="kegg">
                   <el-tabs :tab-position="tabPosition" @tab-click="handleClick2">
-                    <el-tab-pane label="功能注释">
+                    <el-tab-pane :label="$t('lang.fa')">
                       <el-table v-if="gene2GoList!=undefined" height="200px" :data="gene2GoList.filter(data => !search2 || data.name.toLowerCase().includes(search2.toLowerCase()))"  border style="width: 100%;height:200px">
                         <el-table-column prop="GOID" label="GOID" width="120">
                         </el-table-column>
@@ -334,7 +334,7 @@
                         </el-table-column>
                       </el-table>
                     </el-tab-pane>
-                    <el-tab-pane label="表达-GO_BP相关性" name="gobp">
+                    <el-tab-pane :label="$t('lang.BP')" name="gobp">
                       <div class="tcga" v-loading="loading4"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -349,7 +349,7 @@
                         </div>
                         <span id="b" style="display:none">BP</span>
                         <div class="generight">
-                          <p class="xishu">选择数据集：</p>
+                          <p class="xishu">{{$t('lang.dat')}}</p>
                           <el-select v-model="pathway1" filterable multiple placeholder="请选择">
                             <el-option
                               v-for="item in pathwayvalue"
@@ -367,15 +367,15 @@
                               :value="item.value">
                             </el-option>
                           </el-select>
-                          <p class="xishu"><span>R值：</span><input type="number" class="innp" step="0.1" min="0" v-model="input7"></p>
-                          <p class="xishu"><span>P值：</span><input type="number" class="innp" step="0.01" min="0" v-model="input8"></p>
+                          <p class="xishu"><span>{{$t('lang.rvc')}}：</span><input type="number" class="innp" step="0.1" min="0" v-model="input7"></p>
+                          <p class="xishu"><span>{{$t('lang.pvc')}}：</span><input type="number" class="innp" step="0.01" min="0" v-model="input8"></p>
                           <p class="xishu">
-                            <el-button  type="primary" @click="Undate3()" size="mini">更新</el-button>
+                            <el-button  type="primary" @click="Undate3()" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
                     </el-tab-pane>
-                    <el-tab-pane label="表达-GO_CC相关性" name="gocc">
+                    <el-tab-pane :label="$t('lang.CC')" name="gocc">
                       <div class="tcga" v-loading="loading4"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -390,7 +390,7 @@
                         </div>
                         <span id="b" style="display:none">CC</span>
                         <div class="generight">
-                          <p class="xishu">选择数据集：</p>
+                          <p class="xishu">{{$t('lang.dat')}}</p>
                           <el-select v-model="pathway1" filterable multiple placeholder="请选择">
                             <el-option
                               v-for="item in pathwayvalue"
@@ -408,15 +408,15 @@
                               :value="item.value">
                             </el-option>
                           </el-select>
-                          <p class="xishu"><span>R值：</span><input type="number" class="innp" step="0.1" min="0" v-model="input7"></p>
-                          <p class="xishu"><span>P值：</span><input type="number" class="innp" step="0.01" min="0" v-model="input8"></p>
+                          <p class="xishu"><span>{{$t('lang.rvc')}}：</span><input type="number" class="innp" step="0.1" min="0" v-model="input7"></p>
+                          <p class="xishu"><span>{{$t('lang.pvc')}}：</span><input type="number" class="innp" step="0.01" min="0" v-model="input8"></p>
                           <p class="xishu">
-                            <el-button  type="primary" @click="Undate3()" size="mini">更新</el-button>
+                            <el-button  type="primary" @click="Undate3()" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
                     </el-tab-pane>
-                    <el-tab-pane label="表达-GO_MF相关性" name="gomf">
+                    <el-tab-pane :label="$t('lang.MF')" name="gomf">
                       <div class="tcga" v-loading="loading4"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -431,7 +431,7 @@
                         </div>
                         <span id="b" style="display:none">MF</span>
                         <div class="generight">
-                          <p class="xishu">选择数据集：</p>
+                          <p class="xishu">{{$t('lang.dat')}}</p>
                           <el-select v-model="pathway1" filterable multiple placeholder="请选择">
                             <el-option
                               v-for="item in pathwayvalue"
@@ -449,10 +449,10 @@
                               :value="item.value">
                             </el-option>
                           </el-select>
-                          <p class="xishu"><span>R值：</span><input type="number" class="innp" step="0.1" min="0" v-model="input7"></p>
-                          <p class="xishu"><span>P值：</span><input type="number" class="innp" step="0.01" min="0" v-model="input8"></p>
+                          <p class="xishu"><span>{{$t('lang.rvc')}}：</span><input type="number" class="innp" step="0.1" min="0" v-model="input7"></p>
+                          <p class="xishu"><span>{{$t('lang.pvc')}}：</span><input type="number" class="innp" step="0.01" min="0" v-model="input8"></p>
                           <p class="xishu">
-                            <el-button  type="primary" @click="Undate3()" size="mini">更新</el-button>
+                            <el-button  type="primary" @click="Undate3()" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -479,14 +479,14 @@
                         <div class="generight">
                           <span id="a" style="display:none">F</span>
                           <div class="jianyan">
-                            <span>检验方法：</span>
+                            <span>{{$t('lang.tm')}}：</span>
                             <el-radio-group v-model="radio">
-                              <el-radio label="T检验">T检验</el-radio>
-                              <el-radio label="秩和检验">秩和检验</el-radio>
+                              <el-radio label="T检验">{{$t('lang.tt')}}</el-radio>
+                              <el-radio label="秩和检验">{{$t('lang.rst')}}</el-radio>
                             </el-radio-group>
                           </div>
                           <div class="edg">
-                            <span>xlabel旋转角度：</span>
+                            <span>{{$t('lang.xla')}}：</span>
                             <el-select v-model="value" placeholder="请选择">
                               <el-option
                                 v-for="item in options"
@@ -497,7 +497,7 @@
                             </el-select>
                           </div>
                           <div class="tuli1">
-                            <span>图例位置：</span>
+                            <span>{{$t('lang.lp')}}：</span>
                             <el-select v-model="value1" placeholder="请选择">
                               <el-option
                                 v-for="item in options1"
@@ -508,22 +508,22 @@
                             </el-select>
                           </div>
                           <div class="color1">
-                            <span>y轴区间：</span>
+                            <span>{{$t('lang.yar')}}：</span>
                             <input type="number" class="inp" min="0" v-model="input1">-<input class="inp" type="number" min="0" v-model="input2">
                           </div>
                           <div class="color1">
-                            <span>Box宽度：</span>
+                            <span>{{$t('lang.bw')}}：</span>
                             <input type="number" max="1" min="0" class="inp" step="0.1" v-model="input">
                           </div>
                           <div class="color2">
                             <div style="width:120px">
-                              <span>颜色：</span>
+                              <span>{{$t('lang.col')}}：</span>
                               <el-color-picker v-model="color"></el-color-picker>
                               <el-color-picker v-model="color1"></el-color-picker>
                             </div>
                             <p style="width:140px;text-align: right">
-                              <el-button type="primary" @click="downloadtcga()" size="mini">下载</el-button>
-                              <el-button type="primary" @click="Undate()" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadtcga()" size="mini">{{$t('lang.dow')}}</el-button>
+                              <el-button type="primary" @click="Undate()" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
@@ -544,21 +544,21 @@
                         </div>
                         <div class="generight">
                           <div class="jianyan">
-                            <span>检验方式：</span>
+                            <span>{{$t('lang.tm')}}：</span>
                             <el-radio-group v-model="radio2">
-                              <el-radio label="T">方差分析</el-radio>
+                              <el-radio label="T">{{$t('lang.anova')}}</el-radio>
                               <el-radio label="F">Kruskal-Wallis</el-radio>
                             </el-radio-group>
                           </div>
                           <div class="jianyan">
-                            <span>散点图：</span>
+                            <span>{{$t('lang.scattes')}}：</span>
                             <el-radio-group v-model="radio1">
                               <el-radio label="T">显示</el-radio>
                               <el-radio label="F">不显示</el-radio>
                             </el-radio-group>
                           </div>
                           <div class="edg">
-                            <span>xlabel旋转角度：</span>
+                            <span>{{$t('lang.xla')}}：</span>
                             <el-select v-model="edg" placeholder="请选择">
                               <el-option
                                 v-for="item in options"
@@ -569,12 +569,12 @@
                             </el-select>
                           </div>
                           <div class="color1">
-                            <span>y轴区间：</span>
+                            <span>{{$t('lang.yar')}}：</span>
                             <input type="number" class="inp" min="0" v-model="input3">-<input class="inp" type="number" min="0" v-model="input4">
                           </div>
                           <p style="width:180px;margin-top:20px;">
-                            <el-button type="primary" @click="downloadgtex('CCLE')" :disabled="imgsrc2==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="Undate1('CCLE')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadgtex('CCLE')" :disabled="imgsrc2==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="Undate1('CCLE')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -594,21 +594,21 @@
                         </div>
                         <div class="generight">
                           <div class="jianyan">
-                            <span>检验方式：</span>
+                            <span>{{$t('lang.tm')}}：</span>
                             <el-radio-group v-model="radio2">
-                              <el-radio label="T">方差分析</el-radio>
+                              <el-radio label="T">{{$t('lang.anova')}}</el-radio>
                               <el-radio label="F">Kruskal-Wallis</el-radio>
                             </el-radio-group>
                           </div>
                           <div class="jianyan">
-                            <span>散点图：</span>
+                            <span>{{$t('lang.scattes')}}：</span>
                             <el-radio-group v-model="radio1">
                               <el-radio label="T">显示</el-radio>
                               <el-radio label="F">不显示</el-radio>
                             </el-radio-group>
                           </div>
                           <div class="edg">
-                            <span>xlabel旋转角度：</span>
+                            <span>{{$t('lang.xla')}}：</span>
                             <el-select v-model="edg" placeholder="请选择">
                               <el-option
                                 v-for="item in options"
@@ -619,12 +619,12 @@
                             </el-select>
                           </div>
                           <div class="color1">
-                            <span>y轴区间：</span>
+                            <span>{{$t('lang.yar')}}：</span>
                             <input type="number" class="inp" min="0" v-model="input3">-<input class="inp" type="number" min="0" v-model="input4">
                           </div>
                           <p style="width:180px;margin-top:20px;">
-                            <el-button type="primary" @click="downloadgtex('GTEx')" :disabled="imgsrc2==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="Undate1('GTEx')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadgtex('GTEx')" :disabled="imgsrc2==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="Undate1('GTEx')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -645,14 +645,14 @@
                         <span id="a" style="display:none">F</span>
                         <div class="generight">
                           <div class="jianyan">
-                            <span>检验方法：</span>
+                            <span>{{$t('lang.tm')}}：</span>
                             <el-radio-group v-model="radio">
-                              <el-radio label="T检验">T检验</el-radio>
-                              <el-radio label="秩和检验">秩和检验</el-radio>
+                              <el-radio label="T检验">{{$t('lang.tt')}}</el-radio>
+                              <el-radio label="秩和检验">{{$t('lang.rst')}}</el-radio>
                             </el-radio-group>
                           </div>
                           <div class="edg">
-                            <span>xlabel旋转角度：</span>
+                            <span>{{$t('lang.xla')}}：</span>
                             <el-select v-model="value" placeholder="请选择">
                               <el-option
                                 v-for="item in options"
@@ -663,7 +663,7 @@
                             </el-select>
                           </div>
                           <div class="tuli1">
-                            <span>图例位置：</span>
+                            <span>{{$t('lang.lp')}}：</span>
                             <el-select v-model="value1" placeholder="请选择">
                               <el-option
                                 v-for="item in options1"
@@ -674,28 +674,28 @@
                             </el-select>
                           </div>
                           <div class="color1">
-                            <span>y轴区间：</span>
+                            <span>{{$t('lang.yar')}}：</span>
                             <input type="number" class="inp" min="0" v-model="input1">-<input class="inp" type="number" min="0" v-model="input2">
                           </div>
                           <div class="color1">
-                            <span>Box宽度：</span>
+                            <span>{{$t('lang.bw')}}：</span>
                             <input type="number" max="1" min="0" class="inp" step="0.1" v-model="input">
                           </div>
                           <div class="color2">
                             <div style="width:120px">
-                              <span>颜色：</span>
+                              <span>{{$t('lang.col')}}：</span>
                               <el-color-picker v-model="color"></el-color-picker>
                               <el-color-picker v-model="color1"></el-color-picker>
                             </div>
                             <p style="width:140px;text-align: right">
-                              <el-button type="primary" @click="downloadtcgt()" size="mini">下载</el-button>
-                              <el-button type="primary" @click="Undate()" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadtcgt()" size="mini">{{$t('lang.dow')}}</el-button>
+                              <el-button type="primary" @click="Undate()" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
                       </div>
                     </el-tab-pane>
-                    <el-tab-pane label="DownLoad">
+                    <!-- <el-tab-pane label="DownLoad">
                       <div class="download1">
                         <div>
                           <p>下载基因在泛癌中的表达水平：</p>
@@ -714,7 +714,7 @@
                             <el-radio label="CCLE"></el-radio>
                           </el-radio-group>
                           <div style="margin-top:60px">
-                            <el-button type="primary" :disabled="this.fanai==''" @click="fanaidownload()" size="mini">下载</el-button>
+                            <el-button type="primary" :disabled="this.fanai==''" @click="fanaidownload()" size="mini">{{$t('lang.dow')}}</el-button>
                           </div>
                         </div>
                       </div>
@@ -798,14 +798,14 @@
                           </div>
                           <div class="yanse111">
                             <p style="margin-top:10px;">
-                              <el-button type="primary" @click="downloadXG('pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                              <el-button type="primary" @click="downloadXG('txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                              <el-button type="primary" @click="XGUpdate()" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadXG('pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                              <el-button type="primary" @click="downloadXG('txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                              <el-button type="primary" @click="XGUpdate()" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
                       </div>
-                    </el-tab-pane>
+                    </el-tab-pane> -->
                   </el-tabs>
                 </div>
               </el-collapse-item>
@@ -848,15 +848,15 @@
                               </el-option>
                             </el-select>
                           </div>
-                          <div class="color211"><p>颜色：</p><el-color-picker v-model="msicolor"></el-color-picker></div>
+                          <div class="color211"><p>{{$t('lang.col')}}：</p><el-color-picker v-model="msicolor"></el-color-picker></div>
                           <div>
                             <p style="margin-top:10px">图片宽度：<input type="number" v-model="MSIwidth"></p>
                             <p style="margin-top:10px">图片高度：<input type="number" v-model="MSIheight"></p>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadMSI('MSI','pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="downloadMSI('MSI','txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                            <el-button type="primary" @click="MSIUpdate('MSI')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadMSI('MSI','pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="downloadMSI('MSI','txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                            <el-button type="primary" @click="MSIUpdate('MSI')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -897,15 +897,15 @@
                               </el-option>
                             </el-select>
                           </div>
-                          <div class="color211"><p>颜色：</p><el-color-picker v-model="msicolor"></el-color-picker></div>
+                          <div class="color211"><p>{{$t('lang.col')}}：</p><el-color-picker v-model="msicolor"></el-color-picker></div>
                           <div>
                             <p style="margin-top:10px">图片宽度：<input type="number" v-model="MSIwidth"></p>
                             <p style="margin-top:10px">图片高度：<input type="number" v-model="MSIheight"></p>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadMSI('Neoantigen','pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="downloadMSI('Neoantigen','txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                            <el-button type="primary" @click="MSIUpdate('Neoantigen')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadMSI('Neoantigen','pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="downloadMSI('Neoantigen','txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                            <el-button type="primary" @click="MSIUpdate('Neoantigen')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -946,15 +946,15 @@
                               </el-option>
                             </el-select>
                           </div>
-                          <div class="color211"><p>颜色：</p><el-color-picker v-model="msicolor"></el-color-picker></div>
+                          <div class="color211"><p>{{$t('lang.col')}}：</p><el-color-picker v-model="msicolor"></el-color-picker></div>
                           <div>
                             <p style="margin-top:10px">图片宽度：<input type="number" v-model="MSIwidth"></p>
                             <p style="margin-top:10px">图片高度：<input type="number" v-model="MSIheight"></p>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadMSI('TMB','pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="downloadMSI('TMB','txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                            <el-button type="primary" @click="MSIUpdate('TMB')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadMSI('TMB','pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="downloadMSI('TMB','txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                            <el-button type="primary" @click="MSIUpdate('TMB')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -992,8 +992,8 @@
                             </el-option>
                           </el-select>
                           <div class="fazhi">
-                            <p>P值：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
-                            <p>R值：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
+                            <p>{{$t('lang.pvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
+                            <p>{{$t('lang.rvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
                           </div>
                           <div class="yansezhi" style="margin-top:10px">
                             <div>
@@ -1039,9 +1039,9 @@
                           </div>
                           <div class="yanse111">
                             <p style="margin-top:10px;">
-                              <el-button type="primary" @click="downloadMY('checkpoints','pdf')" :disabled="imgsrc10==''" size="mini">下载图片</el-button>
-                              <el-button type="primary" @click="downloadMY('checkpoints','txt')" :disabled="imgsrc10==''" size="mini">下载文本</el-button>
-                              <el-button type="primary" @click="MYUpdate('checkpoints')" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadMY('checkpoints','pdf')" :disabled="imgsrc10==''" size="mini">{{$t('lang.doi')}}</el-button>
+                              <el-button type="primary" @click="downloadMY('checkpoints','txt')" :disabled="imgsrc10==''" size="mini">{{$t('lang.dot')}}</el-button>
+                              <el-button type="primary" @click="MYUpdate('checkpoints')" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
@@ -1080,8 +1080,8 @@
                             </el-option>
                           </el-select>
                           <div class="fazhi">
-                            <p>P值：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
-                            <p>R值：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
+                            <p>{{$t('lang.pvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
+                            <p>{{$t('lang.rvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
                           </div>
                           <div class="yansezhi" style="margin-top:10px">
                             <div>
@@ -1127,9 +1127,9 @@
                           </div>
                           <div class="yanse111">
                             <p style="margin-top:10px;">
-                              <el-button type="primary" @click="downloadMY('ESTIMATE','pdf')" :disabled="imgsrc10==''" size="mini">下载图片</el-button>
-                              <el-button type="primary" @click="downloadMY('ESTIMATE','txt')" :disabled="imgsrc10==''" size="mini">下载文本</el-button>
-                              <el-button type="primary" @click="MYUpdate('ESTIMATE')" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadMY('ESTIMATE','pdf')" :disabled="imgsrc10==''" size="mini">{{$t('lang.doi')}}</el-button>
+                              <el-button type="primary" @click="downloadMY('ESTIMATE','txt')" :disabled="imgsrc10==''" size="mini">{{$t('lang.dot')}}</el-button>
+                              <el-button type="primary" @click="MYUpdate('ESTIMATE')" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
@@ -1172,8 +1172,8 @@
                             <el-radio label="MCPcounter">MCPcounter</el-radio>
                           </el-radio-group>
                           <div class="fazhi">
-                            <p>P值：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
-                            <p>R值：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
+                            <p>{{$t('lang.pvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
+                            <p>{{$t('lang.rvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
                           </div>
                           <div class="yansezhi" style="margin-top:10px">
                             <div>
@@ -1219,9 +1219,9 @@
                           </div>
                           <div class="yanse111">
                             <p style="margin-top:10px;">
-                              <el-button type="primary" @click="downloadMY('pingfen','pdf')" :disabled="imgsrc10==''" size="mini">下载图片</el-button>
-                              <el-button type="primary" @click="downloadMY('pingfen','txt')" :disabled="imgsrc10==''" size="mini">下载文本</el-button>
-                              <el-button type="primary" @click="MYUpdate('pingfen')" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadMY('pingfen','pdf')" :disabled="imgsrc10==''" size="mini">{{$t('lang.doi')}}</el-button>
+                              <el-button type="primary" @click="downloadMY('pingfen','txt')" :disabled="imgsrc10==''" size="mini">{{$t('lang.dot')}}</el-button>
+                              <el-button type="primary" @click="MYUpdate('pingfen')" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
@@ -1260,8 +1260,8 @@
                             </el-option>
                           </el-select>
                           <div class="fazhi">
-                            <p>P值：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
-                            <p>R值：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
+                            <p>{{$t('lang.pvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.01" v-model="p10"></p>
+                            <p>{{$t('lang.rvc')}}：<input type="number" class="innp1" min="-1" max="1" step="0.1" v-model="r10"></p>
                           </div>
                           <div class="yansezhi" style="margin-top:10px">
                             <div>
@@ -1307,9 +1307,9 @@
                           </div>
                           <div class="yanse111">
                             <p style="margin-top:10px;">
-                              <el-button type="primary" @click="downloadMY('PMID28052254','pdf')" :disabled="imgsrc10==''" size="mini">下载图片</el-button>
-                              <el-button type="primary" @click="downloadMY('PMID28052254','txt')" :disabled="imgsrc10==''" size="mini">下载文本</el-button>
-                              <el-button type="primary" @click="MYUpdate('PMID28052254')" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadMY('PMID28052254','pdf')" :disabled="imgsrc10==''" size="mini">{{$t('lang.doi')}}</el-button>
+                              <el-button type="primary" @click="downloadMY('PMID28052254','txt')" :disabled="imgsrc10==''" size="mini">{{$t('lang.dot')}}</el-button>
+                              <el-button type="primary" @click="MYUpdate('PMID28052254')" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
@@ -1347,9 +1347,9 @@
                             </el-select>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadtubian('dot','pdf')" :disabled="imgsrc4==''" size="mini">下载图片</el-button>
-                            <!-- <el-button type="primary" @click="downloadCOX('ROC','txt')" :disabled="imgsrc4==''" size="mini">下载文本</el-button> -->
-                            <el-button type="primary" @click="pinciUpdate('dot')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadtubian('dot','pdf')" :disabled="imgsrc4==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <!-- <el-button type="primary" @click="downloadCOX('ROC','txt')" :disabled="imgsrc4==''" size="mini">{{$t('lang.dot')}}</el-button> -->
+                            <el-button type="primary" @click="pinciUpdate('dot')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -1387,9 +1387,9 @@
                             </div>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadtubian('count','pdf')" :disabled="imgsrc4==''" size="mini">下载图片</el-button>
-                            <!-- <el-button type="primary" @click="downloadCOX('ROC','txt')" :disabled="imgsrc4==''" size="mini">下载文本</el-button> -->
-                            <el-button type="primary" @click="pinciUpdate('count')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadtubian('count','pdf')" :disabled="imgsrc4==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <!-- <el-button type="primary" @click="downloadCOX('ROC','txt')" :disabled="imgsrc4==''" size="mini">{{$t('lang.dot')}}</el-button> -->
+                            <el-button type="primary" @click="pinciUpdate('count')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -1473,9 +1473,9 @@
                           </div>
                           <div class="yanse111">
                             <p style="margin-top:10px;">
-                              <el-button type="primary" @click="downloadDNA('pdf')" :disabled="imgsrc44==''" size="mini">下载图片</el-button>
-                              <el-button type="primary" @click="downloadDNA('txt')" :disabled="imgsrc44==''" size="mini">下载文本</el-button>
-                              <el-button type="primary" @click="DNAUpdate()" size="mini">更新</el-button>
+                              <el-button type="primary" @click="downloadDNA('pdf')" :disabled="imgsrc44==''" size="mini">{{$t('lang.doi')}}</el-button>
+                              <el-button type="primary" @click="downloadDNA('txt')" :disabled="imgsrc44==''" size="mini">{{$t('lang.dot')}}</el-button>
+                              <el-button type="primary" @click="DNAUpdate()" size="mini">{{$t('lang.ren')}}</el-button>
                             </p>
                           </div>
                         </div>
@@ -1487,7 +1487,7 @@
               <el-collapse-item :title="$t('lang.shengcun')" id="gene-13" name="14">
                 <div class="kegg">
                   <el-tabs :tab-position="tabPosition" @tab-click="handleClick11">
-                    <el-tab-pane label="COX">
+                    <!-- <el-tab-pane label="COX">
                       <div class="tcga" v-loading="loading12"
                       element-loading-text="拼命加载中"
                       element-loading-spinner="el-icon-loading"
@@ -1522,13 +1522,13 @@
                             </el-radio-group>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadCOX('cox','pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="downloadCOX('cox','txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                            <el-button type="primary" @click="KMUpdate('cox')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadCOX('cox','pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="downloadCOX('cox','txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                            <el-button type="primary" @click="KMUpdate('cox')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
-                    </el-tab-pane>
+                    </el-tab-pane> -->
                     <el-tab-pane label="KM">
                       <div class="tcga" v-loading="loading12"
                       element-loading-text="拼命加载中"
@@ -1566,9 +1566,9 @@
                             <p class="xishu"><span>Cutoff-Low(%)：</span><input type="number" class="innp" step="1" min="0" max="100" v-model="CutoffLow"></p>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadCOX('km','pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="downloadCOX('km','txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                            <el-button type="primary" @click="KMUpdate('km')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadCOX('km','pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="downloadCOX('km','txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                            <el-button type="primary" @click="KMUpdate('km')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -1608,9 +1608,9 @@
                             </el-radio-group>
                           </div>
                           <p style="margin-top:20px;">
-                            <el-button type="primary" @click="downloadCOX('roc','pdf')" :disabled="imgsrc11==''" size="mini">下载图片</el-button>
-                            <el-button type="primary" @click="downloadCOX('roc','txt')" :disabled="imgsrc11==''" size="mini">下载文本</el-button>
-                            <el-button type="primary" @click="KMUpdate('roc')" size="mini">更新</el-button>
+                            <el-button type="primary" @click="downloadCOX('roc','pdf')" :disabled="imgsrc11==''" size="mini">{{$t('lang.doi')}}</el-button>
+                            <el-button type="primary" @click="downloadCOX('roc','txt')" :disabled="imgsrc11==''" size="mini">{{$t('lang.dot')}}</el-button>
+                            <el-button type="primary" @click="KMUpdate('roc')" size="mini">{{$t('lang.ren')}}</el-button>
                           </p>
                         </div>
                       </div>
@@ -1787,7 +1787,7 @@ EPCAM`,
     this.Undate()
     this.pinciUpdate('dot')
     this.MSIUpdate('MSI')
-    this.KMUpdate('cox')
+    this.KMUpdate('km')
   },
   methods: {
     handleChange(val) {
@@ -3714,5 +3714,14 @@ EPCAM`,
     width: 280px;
     margin-top: 20px;
     margin-left: 20px;
+  }
+  .is-right{
+    width: 168px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
   }
 </style>

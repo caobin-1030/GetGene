@@ -39,8 +39,8 @@
               <p><span>{{ $t('lang.shuoming')}}</span>{{ $t('lang.shuo1')}}</p>
               <p>STEP ONE</p>
               <div class="radio">
-                <div :style="{width:($i18n.locale=='zh'?'111px':'200px')}" :class="{ 'active': isActive }" @click="radioChange">{{ $t('lang.dan')}}</div>
                 <div :style="{width:($i18n.locale=='zh'?'111px':'200px')}" :class="{ 'active': !isActive }" @click="radioChange">{{ $t('lang.duo')}}</div>
+                <div :style="{width:($i18n.locale=='zh'?'111px':'200px')}" :class="{ 'active': isActive }" @click="radioChange">{{ $t('lang.dan')}}</div>
                 <div class="bangzhu" @click="open">?</div>
               </div>
               <div class="radioIcon" v-show="isActive">
@@ -142,7 +142,7 @@ import Header from '../components/Header'
 export default {
   data() {
     return {
-      isActive:true,danlist:'ACC',duolist:['ACC'],searchContent:'',result1:0,genesList:[],search1:'',currentPage:1,code:'?code=061VlpZz0I8drc1DDK1A0GHpZz0VlpZM&state=STATE',
+      isActive:false,danlist:'ACC',duolist:['ACC'],searchContent:'',result1:0,genesList:[],search1:'',currentPage:1,code:'?code=061VlpZz0I8drc1DDK1A0GHpZz0VlpZM&state=STATE',
       name:[],data:[],iconList1:[],iconList2:[]
     }
   },
@@ -166,6 +166,11 @@ export default {
       a.shift()
       this.iconList1=a
       this.iconList2=res.data.res.listCancer
+      var b=[]
+      for(var a of this.iconList2){
+        b.push(a.cancerNameEn)
+      }
+      this.duolist=b
     })
     
     setTimeout(function(){
@@ -181,7 +186,6 @@ export default {
   },
   activated(){
     this.getRouterData()
-    this.handleCurrentChange()
     
   },
   methods: {

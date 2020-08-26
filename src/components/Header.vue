@@ -43,7 +43,7 @@ export default {
       localStorage.setItem('lang',this.lang)
     },
     toGene(){
-      const href = this.$router.push({
+      const {href} =this.$router.resolve({
         path:'/Gene',
         query:{
           search1:'',page:1
